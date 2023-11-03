@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>UM - Loading Screen</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+      <link rel="stylesheet" href="assets/css/style.css">
+   </head>
+   <body>
+      <div class="default-video"></div>
+       <div class="youtube-background"></div>
+       <div class="content">
+     <header>
+      <div class="logo">
+         <img src="" alt="logo">
+      </div>
+      <div class="nav">
+         <ul>
+            <li><a href="" class="hvr-push store"></a></li>
+            <li><a href="" class="hvr-push discord"></a></li>
+         </ul>
+         </div>
+         <div class="profile hvr-grow">
+            <img src="assets/img/no-image.png" alt="profile">
+            <span class="welcome">welcome, <small>no steam</small></span>
+            <ul>
+            <li><a class="dark"><i class="fas fa-moon"></i></a></li>
+            <li><a><i id="musicicon" class="fas fa-volume-up"></i></a></li>
+            <li><a><i class="fas fa-gamepad"></i></a></li>
+         </ul>
+         </div>
+     </header>
+      <hr>
+      <section class="menu">
+         <div class="menu-content">
+            <h3></h3>
+            <p></p>
+         </div>
+         <div class="menu-item hvr-bounce-to-bottom new">
+            <div class="menu-item-text">
+               <h3></h3>
+               <p></p>
+            </div>
+            <div class="menu-item-icon">
+               <img src="assets/img/new-updates.png">
+            </div>
+         </div>
+         <div class="menu-item hvr-bounce-to-bottom about">
+            <div class="menu-item-text">
+               <h3></h3>
+               <p></p>
+            </div>
+            <div class="menu-item-icon">
+               <i class="fas fa-cat"></i>
+            </div>
+         </div>
+         <div class="menu-item hvr-bounce-to-bottom effects">
+            <div class="menu-item-text">
+               <h3></h3>
+               <p></p>
+            </div>
+            <div class="menu-item-icon">
+               <i class="fas fa-snowflake"></i>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <button type="button" class="button">
+            <div id="test" class="button__progress" ></div>
+            <span class="button__text"></span>
+          </button>
+         <div class="info">
+          <p></p>
+         </div>
+      </footer>
+       </div>
+       <canvas class="snow" id="snow" width="15" height="15"></canvas>
+       <canvas id="area"></canvas>
+       <audio id="music" src="" autoplay="true" hidden="true" loop="true"></audio>
+   </body>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js'></script>
+   <script src="assets/js/jquery.youtube-background.min.js"></script>
+   <script src="../config.js"></script>
+   <script id="langsc" src="../lang/global.js"></script>
+   <script src="assets/js/app.js"></script>
+   <script src="assets/js/snow.js"></script>
+   <script src="assets/js/game.js"></script>
+</html>
